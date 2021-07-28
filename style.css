@@ -3,6 +3,8 @@
     padding: 0px;
     font-family: 'Montserrat', sans-serif;
 }
+
+/* First two section Css Start */
 .container{
     display: flex;
     padding-top: 80px;
@@ -52,6 +54,9 @@
     background-size: 100%;
     background-repeat: no-repeat;
 }
+/* first two sections Css End */
+
+/* Recipes-area Css Start */
 .recipes-area{
     margin-bottom: 100px;
 }
@@ -106,10 +111,13 @@
     padding-bottom: 50px;
     font-size: 17px;
 }
+/* Recipes-area Css End */
+
+/* Count-area Css Start */
 .count-area{
     margin-bottom: 100px;
 }
-.count-number{
+.count-box{
     margin-left: 133px;
     width: 1245px;
     height: 200px;
@@ -130,6 +138,9 @@
 .likes{
     margin-right: 140px;
 }
+/* Count-area Css End */
+
+/* Social-sites Css Start */
 .social-sites{
     height: 500px;
     background-image: url(images/Frame\ 01.jpg);
@@ -155,6 +166,9 @@
     text-align: center;
     margin-top: 60px;
 }
+/* Social-sites Css End */
+
+/* Footer Css Start */
 footer{
     height: 250px;
     background-color: black;
@@ -165,3 +179,4 @@ footer h1{
     padding-top: 60px;
     padding-bottom: 40px;
 }
+/* Footer Css End */
