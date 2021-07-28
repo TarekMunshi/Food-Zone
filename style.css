@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    display: flex;
+    padding-top: 80px;
+    margin-bottom: 50px;
+}  
+.half-width h1{
+    padding: 03px;
+    font-size: 60px;
+    font-family: font-family: 'Montserrat', sans-serif;
+    color: rgba(87, 87, 87, 1);
+}
+.half-width p{
+    margin-top: 25px;
+    margin-bottom: 60px;
+}
+.half-width{
+    width: 80%;
+    margin-left: 150px;
+    margin-top: 200px;
+}
+.click-btn{
+    text-decoration: none;
+    color: white;
+    border: 0px solid;
+    border-radius: 50px;
+    background-image: linear-gradient(90deg, salmon, tomato);
+    padding: 20px 40px;
+}
+.second-half-width img{
+    width: 90%;
+    margin-left: 20px;  
+}
+.about-first-part{
+    margin-left: 240px;
+    margin-right: 15px;
+    margin-top: -6px;
+}
+.about-first-part img{
+    width: 400px;
+}
+.about-second-part{
+    margin-right: 155px;
+    margin-top: 150px;
+}
+.about-bg{
+    background-image: url(images/Frame\ 02.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.recipes-area{
+    margin-bottom: 100px;
+}
+.recipes-details{
+    text-align: center;
+    color: rgba(87, 87, 87, 1);
+}
+.recipes-details h2{
+    font-size: 30px;
+    padding: 20px;
+}
+.recipes-details p{
+    color: black;
+    padding-bottom: 20px;
+}
+.recipes-card{
+    display: flex;
+    padding-left: 200px;
+    padding-top: 50px;
+}
+.item-card{
+    margin-right: 100px;
+    margin-top: 0px;
+    margin-left: -65px;
+    margin-bottom: 20px;
+    border: 0px solid gray;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px gray;
+    background-color: white;
+}
+.item-card:hover{
+    cursor: pointer;
+    box-shadow: 10px 10px 20px rgb(92, 87, 87);
+    transition: 0.3s;
+
+}
+.item-card img{
+    width: 350px;
+    height: 280px;
+    padding: 20px; 
+    border-radius: 40px;
+}
+.food-details{
+    padding-left: 22px;
+}
+.food-details h3{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+.food-details p{
+    padding-bottom: 50px;
+    font-size: 17px;
+}
+.count-area{
+    margin-bottom: 100px;
+}
+.count-number{
+    margin-left: 133px;
+    width: 1245px;
+    height: 200px;
+    border: 0px solid gray;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px gray;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.yil h1{
+    font-size: 40px;
+}
+.youtube{
+    margin-left: 140px;
+}
+.likes{
+    margin-right: 140px;
+}
+.social-sites{
+    height: 500px;
+    background-image: url(images/Frame\ 01.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.scoial-site-text h1{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 30px;
+    font-family: monospace;
+}
+.social-links{
+    margin-left: 515px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.social-links img{
+    width: 75px;
+    padding: 22px;
+}
+.contact p{
+    text-align: center;
+    margin-top: 60px;
+}
+footer{
+    height: 250px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+footer h1{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
